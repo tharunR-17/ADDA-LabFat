@@ -1,13 +1,4 @@
-def greet_user(name):
-    return f"Hello, {name}!"
+user_name = input("Enter your name: ")
 
-def main():
-    user_name = input("Enter your name: ")
+print("Hello, ",user_name)
 
-    greeting = greet_user(user_name)
-
-    print(greeting)
-
-
-if __name__ == "__main__":
-    main()
